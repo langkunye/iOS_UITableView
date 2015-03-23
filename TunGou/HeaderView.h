@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HeaderView.h
 //  TunGou
 //
 //  Created by 郎坤也 on 15/3/20.
@@ -8,9 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-//- (void)loadMoreData;
+@interface HeaderView : UIView
+//创建类方法
 
-
++(instancetype)headerView;
 @end
-
